@@ -22,9 +22,9 @@ app.use(cors())
 
 
 //Middleware
-
+app.use("/api",userRouter);
 app.use("/api",productRouter);
-app.use("/api",userRouter)
+
 
 
 
